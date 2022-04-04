@@ -1,0 +1,138 @@
+.body {
+    background-color: #E5E5E5;
+}
+
+.nav__Logo {
+    position: absolute;
+    width: 160px;
+    height: 41px;
+}
+
+.nav__items {
+    justify-content: end;
+}
+
+.Header__button {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+}
+
+.Hero__img {
+    padding-top: 84px;
+}
+
+.Header__title {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+    align-items: auto;
+}
+
+.Header {
+    position: static;
+    padding-top: 191px;
+    margin: auto;
+}
+
+.Header__text {
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.Grid {
+    width: 1120px;
+    height: 745px;
+}
+
+.Services {
+    font-size: 36px;
+    padding-top: 192px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.Services__text {
+    font-size: 18px;
+    color: #7D7987;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.card__img {
+    margin-top: 54px;
+    padding-left: 37px;
+    height: 90px;
+    width: 92px;
+}
+
+.card__body {
+    box-shadow: 10px 40px 50px;
+    border-radius: 20px;
+    height: 354px;
+    width: 350px;
+}
+
+.card-title {
+    margin-top: 22px;
+    margin-left: 39px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 47px;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #7D7987;
+    margin-left: 39px;
+}
+
+.Services__button {
+    display: block;
+    margin: auto;
+    height: 56px;
+    width: 200px;
+    color: #458FF6;
+    background: #E5E5E5;
+    margin-top: 69px;
+    border-radius: 55px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #67C3F3;
+    background-color: #5A98F2;
+    margin-top: 201px;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer__text {
+    margin-left: 190px;
+    margin-top: 109px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    height: 201px;
+    width: 391px;
+}
+
+.footer__text1 {
+    margin-top: 109px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    height: 201px;
+    width: 391px;
+    justify-content: flex-end;
+}
+
+.list_items {
+    list-style-type: none;
+    text-indent: -25px;
+}
