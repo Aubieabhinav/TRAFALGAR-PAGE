@@ -1,5 +1,7 @@
 .body {
     background-color: #E5E5E5;
+    font-family: 'Mulish';
+    font-style: normal;
 }
 
 .nav__Logo {
@@ -18,7 +20,10 @@
     border-radius: 55px;
 }
 
-.Hero__img {
+.virtual__image {
+    float: right;
+    margin-right: auto;
+    display: block;
     padding-top: 84px;
 }
 
@@ -38,6 +43,7 @@
 .Header__text {
     font-weight: 300;
     margin-bottom: 45px;
+    columns: 1;
 }
 
 .Grid {
@@ -79,7 +85,6 @@
     margin-left: 39px;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 47px;
 }
 
 .card-text {
@@ -88,9 +93,30 @@
     font-weight: 300;
     color: #7D7987;
     margin-left: 39px;
+    margin-bottom: 45px;
 }
 
 .Services__button {
+    margin: auto;
+    display: flex;
+    height: 56px;
+    width: 200px;
+    background-color: #E5E5E5;
+    margin-top: 72px;
+    border-radius: 55px;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 1.4px solid #458FF6;
+}
+
+.Services__button__text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    mix-blend-mode: normal;
+}
+
+.button1 {
     display: block;
     margin: auto;
     height: 56px;
@@ -108,6 +134,8 @@
     margin-top: 201px;
     color: white;
     justify-content: space-between;
+    margin-bottom: 113px;
+    height: 432px;
 }
 
 .footer__text {
@@ -119,9 +147,11 @@
     line-height: 38px;
     height: 201px;
     width: 391px;
+    mix-blend-mode: normal;
 }
 
 .footer__text1 {
+    padding-left: 145px;
     margin-top: 109px;
     color: white;
     font-weight: 300;
@@ -129,10 +159,15 @@
     line-height: 38px;
     height: 201px;
     width: 391px;
-    justify-content: flex-end;
+    text-align: justify;
+    mix-blend-mode: normal;
 }
 
 .list_items {
     list-style-type: none;
     text-indent: -25px;
+}
+
+.section {
+    margin-top: 221px;
 }
